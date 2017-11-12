@@ -9,7 +9,8 @@
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
+  background-color: #333333;
+  color: white;
   padding: 2rem 0;
 }
 
@@ -29,7 +30,7 @@
       -ms-flex: 1 0 200px;
           flex: 1 0 200px;
   text-align: center;
-  color: #717171;
+  color: #ffffff;
   padding: 0 0.5rem;
   position: relative;
   white-space: nowrap;
@@ -64,49 +65,5 @@
 .portfolio-hero-header-menu li a {
   padding-left: 1.875rem;
   padding-right: 1.875rem;
-}
-
-/*nav*/
-.hover-underline-menu {
-  width: 100%;
-  margin: auto;
-}
-
-.hover-underline-menu .menu {
-  background-color: #343434;
-}
-
-.hover-underline-menu .menu a {
-  color: #ffffff;
-  padding: 1.2rem 4rem;
-}
-
-
-.hover-underline-menu .menu .underline-from-center {
-  position: relative;
-}
-
-
-
-.hover-underline-menu .menu .underline-from-center::after {
-  content: "";
-  position: absolute;
-  top: calc(100% - 0.25rem);
-  border-bottom: 0.25rem solid #ffffff;
-  left: 50%;
-  right: 50%;
-  transition: all 0.25s ease;
-}
-
-
-.hover-underline-menu .menu .underline-from-center:hover::after {
-  left: 0;
-  right: 0;
-  transition: all 0.25s ease;
-}
-
-.hover-underline-menu .menu #activenav .underline-from-center::after {
-  left: 0;
-  right: 0;
 }
 
