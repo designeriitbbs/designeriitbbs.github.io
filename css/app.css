@@ -10,8 +10,8 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-  color: #ffca27;
-  box-shadow: 0px 0.0125rem 0.5rem #555;
+  color: #111;
+  box-shadow: 0px 0.125rem 1rem rgba(209, 209, 209, 0.67);
   padding: 2rem 0;
 }
 
