@@ -49,8 +49,14 @@ nav,
 section {
   display: block; }
 header{
+	background-color: #1781ff;
 	text-align: center;
-	margin: 7rem 0rem;
+	padding: 7rem 0rem;
+	color: white;
+}
+
+.header p{
+	color: white;
 }
 
 
@@ -2264,7 +2270,7 @@ h3, .h3 {
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; 
-  color: #111;}
+  color: #1781ff;}
 
 h4, .h4 {
   font-size: 1.125rem;
